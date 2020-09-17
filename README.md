@@ -1,4 +1,29 @@
+ # calculator
+A very simple React application.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Built With
+- React
+- Javascript
+
+## Live Demo
+
+<!-- Click [here]() to visit a live version of the web app. -->
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+- npm
+- webpack
+
+### Setup
+- Clone the repository.
+<!-- - Run `npm install` to install dependencies.
+- Run `npm start` to start the development server.
+- Your browser should open. Click on the `dist` folder to see the app. -->
 
 ## Available Scripts
 
@@ -37,32 +62,30 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
+👤 **Christopher Amanor**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Github: [@krys2fa](https://github.com/krys2fa)
+- Twitter: [@krys2fa](https://twitter.com/krys2fa)
+- Linkedin: [Christopher Amanor](https://www.linkedin.com/in/christopher-amanor/)
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Contributions, issues and feature requests are welcome!
 
-### Making a Progressive Web App
+Feel free to check the [issues page](https://github.com/krys2fa/calculator/issues).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Show your support
 
-### Advanced Configuration
+Kindly give this repository a ⭐️ if you like this project!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Acknowledgments
 
-### Deployment
+- Project specifications by [Microverse](https://www.microverse.org) and [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/weather-app).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## 📝 License
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is licensed under the MIT License.
