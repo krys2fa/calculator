@@ -8,6 +8,7 @@ const Button = ({ name, wide, color }) => (
       backgroundColor: color,
       width: wide ? '50%' : '',
     }}
+    onClick={handleClick}
   >
     {name}
   </div>

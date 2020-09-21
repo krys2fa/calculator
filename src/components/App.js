@@ -20,9 +20,20 @@ class App extends React.Component {
   }
 
   render() {
+    let result;
+    const { total, next } = this.state;
+
+    if ((total && next) || (!total && next)) {
+      result = next;
+    }
+
+    if (total && !next) {
+      result = total;
+    }
+
     return (
       <div id="app" className="app">
-        <Display />
+        <Display result={result} />
         <ButtonPanel onClick={this.handleClick} />
       </div>
     );
