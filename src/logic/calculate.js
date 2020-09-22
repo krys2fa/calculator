@@ -1,24 +1,35 @@
+/* eslint-disable radix */
 import operate from './operate';
 
 const calculate = (data, buttonName) => {
   let { total, next, operation } = data;
 
   switch (buttonName) {
-    case '+/-':
-    case '+':
-    case '-':
-    case '÷':
     case '%':
-      return operate(total, next, operation);
+    case '÷':
+    case '-':
+    case '+':
+    case '+/-':
+      operation = buttonName;
+      return { total, next, operation };
     case 'AC':
-      total = '0';
-      next = null;
-      operation = null;
-      return total;
+      return { total: '0', next: null, operation: null };
     case '.':
-      return '';
+      if ((total && !next) || (!total && !next)) {
+        total += buttonName;
+      } else if (operation) {
+        next += buttonName;
+      }
+      return { total, next, operation };
+    case [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].includes(parseInt(buttonName)):
+      if (operation) {
+        next += buttonName;
+      } else if (!operation) {
+        total += buttonName;
+      }
+      return { total, next, operation };
     case '=':
-      return '';
+      return operate(total, next, operation);
 
     default:
       return 'ERROR';
