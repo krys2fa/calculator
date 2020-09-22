@@ -32,7 +32,7 @@ const calculate = (data, buttonName) => {
       return operate(total, next, operation);
 
     default:
-      return 'ERROR';
+      return data;
   }
 };
 
