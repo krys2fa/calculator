@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
@@ -8,27 +7,26 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: '0',
-      next: null,
-      operation: null,
+      total: '',
+      next: '',
+      operation: '',
     };
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick(buttonName) {
-    this.setState(calculate(this.state, buttonName));
-    console.log('App -> handleClick -> calculate(this.state, buttonName)', calculate(this.state, buttonName));
+    this.setState(prevState => calculate(prevState, buttonName));
   }
 
   render() {
     let result;
-    const { total, next } = this.state;
+    const { total, next, operation } = this.state;
 
     if ((total && next) || (!total && next)) {
       result = next;
     }
 
-    if (total && !next) {
+    if ((total && !next) || (operation === '=')) {
       result = total;
     }
 
