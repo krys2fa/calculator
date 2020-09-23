@@ -3,8 +3,9 @@ A very simple React application.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Built With
-- React
-- Javascript
+- React.
+- create-react-app tool.
+- big.js package.
 
 ## Live Demo
 
@@ -16,8 +17,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- npm
-- webpack
+- NPM.
+- Javascript.
 
 ### Setup
 - Clone the repository.
@@ -44,7 +45,7 @@ Kindly give this repository a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Project specifications by [Microverse](https://www.microverse.org) and [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/weather-app).
+- Project specifications by [Microverse](https://github.com/microverseinc/project-react-calculator).
 
 ## 📝 License
 
