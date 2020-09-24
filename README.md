@@ -2,6 +2,9 @@
 A very simple React application.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#
+![calculator.png](./public/calculator.png)
+
 ## Built With
 - React.
 - create-react-app tool.
